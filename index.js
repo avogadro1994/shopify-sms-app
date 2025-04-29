@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 const app = express();
 const PORT = 3000;
 
-const SMS_API_TOKEN = 'ICI_TON_TOKEN';  // ← tu changeras ça après
-const SMS_SENDER_ID = 'NomBoutique';    // ← pareil ici
+const SMS_API_TOKEN = '117|IdUv6YT7RoFbMZc662Yqj1BDzjAsDsFgbEEjm2AQdefdb0ab ';  // ← tu changeras ça après
+const SMS_SENDER_ID = 'KFM SMS';    // ← pareil ici
 
 app.use(bodyParser.json());
 
